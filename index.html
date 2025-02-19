@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Controle de Projetos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="components/task-list/task-list.css">
+  <link rel="stylesheet" href="components/chat/chat.css">
+  <link rel="stylesheet" href="components/dashboard/dashboard.css">
+  <link rel="stylesheet" href="components/notifications/notifications.css">
+  <link rel="stylesheet" href="components/video-call/video-call.css">
+  <link rel="stylesheet" href="components/kanban/kanban.css">
+    <link rel="stylesheet" href="components/gantt/gantt.css">
+
+
+</head>
+
+<body>
+  <div class="dashboard-container">
+
+    <aside class="sidebar">
+      <div class="logo">ProjectFlow</div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#" data-section="dashboard">Dashboard</a></li>
+          <li><a href="#" data-section="tasks">Tarefas</a></li>
+          <li><a href="#" data-section="kanban">Kanban</a></li>
+          <li><a href="#" data-section="gantt">Gantt</a></li>
+          <li><a href="#" data-section="chat">Chat</a></li>
+          <li><a href="#" data-section="video">Videochamadas</a></li>
+          <li><a href="#" data-section="notifications">Notificações</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+
+      <header class="main-header">
+        <h1>Painel de Controle de Projetos</h1>
+        <div class="user-profile">
+          <span class="username">Usuário</span>
+          <img src="user-icon.svg" alt="User Icon" class="user-icon">
+        </div>
+      </header>
+
+      <section id="dashboard-section" class="dashboard-section">
+        <!-- Conteúdo do Dashboard -->
+      </section>
+
+      <section id="tasks-section" class="tasks-section hidden">
+        <!-- Lista de Tarefas -->
+      </section>
+
+      <section id="kanban-section" class="kanban-section hidden">
+        <!-- Kanban -->
+      </section>
+      
+       <section id="gantt-section" class="gantt-section hidden">
+            <!-- Gantt Chart -->
+        </section>
+
+      <section id="chat-section" class="chat-section hidden">
+        <!-- Chat em Tempo Real -->
+      </section>
+
+      <section id="video-section" class="video-section hidden">
+        <!-- Videochamadas -->
+      </section>
+
+      <section id="notifications-section" class="notifications-section hidden">
+        <!-- Notificações -->
+      </section>
+
+    </main>
+
+  </div>
+  <script src="script.js"></script>
+  <script src="components/task-list/task-list.js"></script>
+  <script src="components/chat/chat.js"></script>
+  <script src="components/dashboard/dashboard.js"></script>
+  <script src="components/notifications/notifications.js"></script>
+  <script src="components/video-call/video-call.js"></script>
+  <script src="components/kanban/kanban.js"></script>
+  <script src="components/gantt/gantt.js"></script>
+</body>
+
+</html>
