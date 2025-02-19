@@ -1,0 +1,27 @@
+/* components/notifications/notifications.css */
+.notification-list {
+  list-style: none;
+  padding: 0;
+}
+
+.notification-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.notification-list li:last-child {
+  border-bottom: none;
+}
+
+.notification-icon {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.notification-time {
+  margin-left: auto;
+  color: #888;
+  font-size: 0.8em;
+}

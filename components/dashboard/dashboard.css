@@ -1,0 +1,55 @@
+/* components/dashboard/dashboard.css */
+.dashboard-widgets {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.widget {
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.widget h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.progress-chart {
+  text-align: center;
+}
+
+.upcoming-tasks,
+.team-members {
+  list-style: none;
+  padding: 0;
+}
+
+.upcoming-tasks li,
+.team-members li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.upcoming-tasks li:last-child,
+.team-members li:last-child {
+  border-bottom: none;
+}
+
+/* Sentiment Analysis Widget Styles */
+.sentiment-analysis {
+  text-align: center;
+  padding: 10px;
+  background-color: #e6f9e6;
+  border-radius: 4px;
+}
+
+.sentiment-analysis p {
+  margin: 0;
+  font-weight: bold;
+  color: #3a6e3a;
+}

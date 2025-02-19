@@ -1,0 +1,31 @@
+/* components/gantt/gantt.css */
+.gantt-chart {
+  overflow-x: auto;
+}
+
+.gantt-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.gantt-table th,
+.gantt-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.gantt-table th {
+  background-color: #f0f0f0;
+}
+
+.task-bar {
+  position: relative;
+  display: block;
+  height: 20px;
+  background-color: #008CBA;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 4px;
+}
